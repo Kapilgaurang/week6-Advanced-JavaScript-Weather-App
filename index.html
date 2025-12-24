@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Gaurang</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Gaurang</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">8273323754</a></li>
+        <button id="themeToggle">Dark Mode</button>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <button id="helloBtn">Click me</button>
+    <p id="helloText"></p>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hi — I’m <strong>Gaurang</strong>. I’m learning web development.</p>
+      <img src="images/me.jpg" width="200">
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>Sales & Inventory System, Task Manager, Portfolio Website</p>
+    </section>
+
+
+    <section id="contact">
+      <h2>8273323754</h2>
+
+      <form>
+        <label>Name</label>
+        <input id="name" required>
+
+        <label>Email</label>
+        <input id="email" type="email" required>
+
+        <label>Message</label>
+        <textarea id="message" rows="4" required></textarea>
+
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+      </form>
+    </section>
+
+
+    <section id="tasks">
+      <h2>Task Manager</h2>
+      <input id="taskInput" placeholder="Enter a task">
+      <button id="addTaskBtn">Add Task</button>
+      <ul id="taskList"></ul>
+    </section>
+
+
+    <!-- ⭐ WEATHER DASHBOARD ⭐ -->
+    <section id="weather">
+      <h2>Weather Dashboard</h2>
+
+      <input id="cityInput" type="text" placeholder="Enter city name">
+      <button id="searchBtn">Search</button>
+
+      <div id="weatherResult">
+        <h3 id="cityName"></h3>
+        <p id="temp"></p>
+        <p id="desc"></p>
+        <p id="humidity"></p>
+        <p id="wind"></p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Gaurang — Built with HTML5</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
